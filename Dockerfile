@@ -1,5 +1,5 @@
 # 1. THE BASE
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # 2. THE SUPPLIER (The "uv" Magic)
 # Instead of 'pip install uv', we copy the binary from the official uv image.
